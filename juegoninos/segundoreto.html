@@ -1,0 +1,65 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="ico1.png" type="image/x-icon">
+<title>Documento sin título</title>
+<style type="text/css">
+body {
+	background-image: url(img/arco.jpg);
+	text-align: left;
+}
+.body div h2 {
+	text-align: center;
+}
+.body div h2 {
+	font-size: 16px;
+}
+.body div h2 {
+	font-size: 36px;
+}
+.body div h2 {
+	color: #000;
+}
+.body div h2 {
+	font-family: Georgia, "Times New Roman", Times, serif;
+}
+</style>
+<link href="SpryAssets/SpryMenuBarHorizontal.css" rel="stylesheet" type="text/css" />
+<script src="SpryAssets/SpryMenuBar.js" type="text/javascript"></script>
+</head>
+
+<body onclick="playaudio()">
+<div class="body">
+  <div class="bi"><img src="img/bienve.png" width="1497" height="281" align="baseline" /></div>
+  <p>&nbsp;</p>
+  
+  <div>
+  <h2>sean bienvenidos al segundo reto el cual deberan seleccionar las parejas correctas segun los colores de las tarejetas, mucha suerte</h2>
+  <p>&nbsp;</p>
+  </div>
+  
+  <div class="b">
+    <ul id="MenuBar1" class="MenuBarHorizontal">
+      <li>
+        <div align="center"><a href="file:///C:/Users/mrloboa/Desktop/juegoninos/index.html">AVANCEMOS &gt;:)</a> </div>
+      </li>
+</ul>
+  </div>
+  <h2>  PRECIONA ESTE BOTON Y EMPEZARAS EL RETO  </h2>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+
+<script type="text/javascript">
+var MenuBar1 = new Spry.Widget.MenuBar("MenuBar1", {imgDown:"SpryAssets/SpryMenuBarDownHover.gif", imgRight:"SpryAssets/SpryMenuBarRightHover.gif"});
+</script>
+<audio id="music" src="au/pag2.mp3"controls></audio>
+<script>
+  function playaudio(){
+    document.getElementById("music"). play()
+  }
+</script>
+</body>
+</html>
